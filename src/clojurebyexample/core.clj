@@ -27,4 +27,4 @@
 
 
 ;; wrap the handler, to be able to add middleware etc
-(def app (-> #'handler (wrap-file "/" )))
+(def app (-> #'handler (wrap-resource "" )))
