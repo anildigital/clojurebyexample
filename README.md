@@ -1,14 +1,16 @@
 # clojurebyexample
 
-A Clojure library designed to ... well, that part is up to you.
+Clojure by Example. Learn Clojure by seeing examples how to do things with Clojure language.
 
 ## Usage
 
-FIXME
+Run
+
+# To generate output html files in folder 'resources/output'
+sh generate.sh 
 
 ## License
 
-Copyright © 2014 FIXME
+Copyright © 2014 Anil WAadghule
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+See LICENSE.md
