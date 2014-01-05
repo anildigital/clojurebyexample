@@ -21,7 +21,7 @@ open resources/output/toc.html
 
 ## License
 
-Apache License Version 2.0. See LICENSE.md
+Apache License Version 2.0. See [LICENSE.md](LICENSE.md)
 
 Copyright © 2014 Anil Wadghule
 
