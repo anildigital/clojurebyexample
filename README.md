@@ -21,6 +21,8 @@ open resources/output/toc.html
 
 ## License
 
-Copyright © 2014 Anil Waadghule
+Apache License Version 2.0. See LICENSE.md
 
-See LICENSE.md
+Copyright © 2014 Anil Wadghule
+
+
