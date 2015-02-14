@@ -3,7 +3,7 @@
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :plugins [[lein-marginalia "0.7.1"] [lein-ring "0.8.8"] [compojure "1.1.6"]]
+  :plugins [[lein-marginalia "0.8.0"] [lein-ring "0.9.1"] [compojure "1.3.1"]]
   :resource-paths ["resources"] ;
   :ring {:handler clojurebyexample.core/app  }
-  :dependencies [[org.clojure/clojure "1.5.1"]])
+  :dependencies [[org.clojure/clojure "1.6.0"]])
