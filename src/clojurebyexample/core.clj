@@ -8,7 +8,7 @@
   )
 
 (defn handler [request]
-  (resource-response "toc.html"))
+  (resource-response "toc.html", {:root "output"}))
 
 (defn -main [& [port]]
   (let [port (Integer. (or port (env :port) 5000))]
