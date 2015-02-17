@@ -11,5 +11,5 @@
                  ]
   :min-lein-version "2.0.0"
   :uberjar-name "clojurebyexample-standalone.jar"
-  :profiles {:production {:env {:production true}}}
+  :profiles {:uberjar {:aot :all}}
   :main clojurebyexample.core)
