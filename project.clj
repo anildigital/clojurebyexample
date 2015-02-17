@@ -1,6 +1,6 @@
 (defproject clojurebyexample "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+  :description "Clojure by Example"
+  :url "http://clojurebyexample"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :hooks [environ.leiningen.hooks]

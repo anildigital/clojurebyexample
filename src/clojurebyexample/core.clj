@@ -1,15 +1,14 @@
 (ns clojurebyexample.core
   (:require [ring.adapter.jetty :as jetty]
-            [environ.core :refer [env]])
+            [environ.core :refer [env]]
+            [ring.util.response :refer [resource-response]])
   (:use ring.middleware.resource)
   (:use ring.middleware.file)
   (:use ring.middleware.file-info)
   )
 
 (defn handler [request]
-  {:status 302
-   :headers {"Location" "/toc.html"}
-   })
+  (resource-response "toc.html"))
 
 (defn -main [& [port]]
   (let [port (Integer. (or port (env :port) 5000))]
