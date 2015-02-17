@@ -1,28 +1,14 @@
 # clojurebyexample
 
-Clojure by Example. Learn Clojure by seeing examples how to do things with Clojure language.
+A Clojure library designed to ... well, that part is up to you.
 
 ## Usage
 
-Run
-
-To generate output html files in folder 'resources/output'
-
-```
-sh generate.sh
-```
-
-Browse to access generated output html files
-
-```
-open resources/output/toc.html
-```
-
+FIXME
 
 ## License
 
-Apache License Version 2.0. See [LICENSE.md](LICENSE.md)
+Copyright © 2015 FIXME
 
-Copyright © 2014 Anil Wadghule
-
-
+Distributed under the Eclipse Public License either version 1.0 or (at
+your option) any later version.

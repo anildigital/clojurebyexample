@@ -1,1 +1,1 @@
-web: lein run $PORT
+web: java $JVM_OPTS -cp target/clojurebyexample-standalone.jar clojure.main -m clojurebyexample.core
