@@ -1,5 +1,6 @@
 (ns clojurebyexample.core
-  (:require [ring.adapter.jetty :as jetty])
+  (:require [ring.adapter.jetty :as jetty]
+            [environ.core :refer [env]])
   (:use ring.middleware.resource)
   (:use ring.middleware.file)
   (:use ring.middleware.file-info)
@@ -10,5 +11,6 @@
    :headers {"Location" "/toc.html"}
    })
 
-(defn -main []
-  (jetty/run-jetty (-> #'handler (wrap-resource "output" )) {:port 3005}))
+(defn -main [& [port]]
+  (let [port (Integer. (or port (env :port) 5000))]
+    (jetty/run-jetty  (-> #'handler (wrap-resource "output" )) {:port port :join? false})))
