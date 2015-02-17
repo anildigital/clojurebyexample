@@ -1,1 +1,0 @@
-(do (clojure.core/ns clojurebyexample.core.main (:gen-class)) (clojure.core/defn -main [] ((do (clojure.core/require (quote ring.server.leiningen)) (clojure.core/resolve (quote ring.server.leiningen/serve))) (quote {:ring {:auto-reload? false, :stacktraces? false, :open-browser? false, :handler clojurebyexample.core/app}}))))

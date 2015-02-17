@@ -1,1 +1,1 @@
-web: java -jar target/clojurebyexample-0.1.0-SNAPSHOT-standalone.jar
+web: lein ring server-headless $PORT
